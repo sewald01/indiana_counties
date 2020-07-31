@@ -13,10 +13,10 @@ message(getwd())
 
 # 2. Read in data
 
-
+indianaData <- read.csv("covid_report_county_date_20200730.csv")
 
 # 3. Assign variables
 
-
+indianaCounties <- unique(indianaData$COUNTY_NAME)
 
 # 4. Loop through case counts by day
